@@ -1,6 +1,6 @@
 <script lang="ts">
 
-  export const app ={
+  export default{
     name: "App",
     components:{}
   }
