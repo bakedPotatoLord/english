@@ -6,11 +6,11 @@ import { createRouter, createWebHistory } from "vue-router";
 
 
 import Home from "./components/Home.vue"
-import Other from "./components/Other.vue"
+import M from "./components/moment-in-my-life.vue"
 
 const routes = [
   { path: "/english/", name: "Home", component: Home },
-  { path: "/english/other", name: "Other", component: Other },
+  { path: "/english/moment-in-my-life", name: "Other", component: M },
 
 ];
 
