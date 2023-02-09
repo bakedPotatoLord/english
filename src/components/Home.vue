@@ -7,23 +7,29 @@
 
 <template>
   <div class="body">
-    <table>
-      <tr>
-        <th>Memoirs</th>
-        <td>thing 1</td>
-        <td>thing 1</td>
-      </tr>
-    </table>
+    <div class="type">
+      <div class="title">
+        Memoirs
+      </div>
+      <div class="works">
+        <div class="work">
+          <p>this is a super cool literary masterpiece</p>
+        </div>
+        <div class="work">
+          <p>this is a super cool literary masterpiece</p>
+        </div>
+        <div class="work">
+          <p>this is a super cool literary masterpiece</p>
+        </div>
+        <div class="work">
+          <p>this is a super cool literary masterpiece</p>
+        </div>
+
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-  th{
-    border: solid 2px black;
-  }
-
-  th,
-  td{
-    padding: 2em;
-  }
+  
 </style>
