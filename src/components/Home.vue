@@ -1,4 +1,13 @@
 
+<script lang="ts">
+  export default {
+    name:"home",
+    components:{
+      
+    }
+  }
+</script>
+
 <template>
   <div class="body">
     <table>

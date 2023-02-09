@@ -5,7 +5,7 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from "vue-router";
 
 
-import Home from "./components/Main.vue"
+import Home from "./components/Home.vue"
 import Other from "./components/Other.vue"
 
 const routes = [
