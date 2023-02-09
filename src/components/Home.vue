@@ -12,12 +12,16 @@
         <h3>Memoirs</h3>
       </div>
       <div class="works">
-        <div class="work">
-          <p>this is a super cool literary masterpiece</p>
-        </div>
-        <div class="work">
-          <p>this is a super cool literary masterpiece</p>
-        </div>
+        <a href="/english/moment-in-my-life">
+          <div class="work">
+            <p>A Moment in My Life</p>
+          </div>
+        </a>
+        <a href="/english/when-i-was-young">
+          <div class="work">
+            <p>A Moment in My Life</p>
+          </div>
+        </a>
         <div class="work">
           <p>this is a super cool literary masterpiece</p>
         </div>
@@ -43,8 +47,7 @@
   .works{
     display:flex;
     flex-flow: row nowrap;
-    align-content: stretch;
-    
+    align-content:stretch;
   }
 
   .title{
@@ -58,15 +61,18 @@
 
   .work{
     padding:1rem;
-    flex-shrink: 4;
-    min-width: 4rem;
+    flex-grow: 2;
+    min-width: 5rem;
     border: 2px dashed salmon;
     transition-duration: 1s;
     margin:0.5rem;
+
   }
 
   .work p{
     font-family: 'inter';
+    text-decoration:none;
+    color:black;
   }
 
   .work:hover{
