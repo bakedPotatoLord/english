@@ -1,10 +1,20 @@
-import { defineConfig, ViteDevServer } from 'vite'
+import { defineConfig, UserConfig, } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { fileURLToPath, URL } from 'node:url'
+
+import {resolve} from 'node:path'
+
+const root = resolve(__dirname,'src')
+const outDir = resolve(__dirname,'dist')
 
 // https://vitejs.dev/config/
-export default {
+export default <UserConfig>{
+  root,
+  base:'/english/',
   plugins: [vue()],
+  build:{
+    outDir,
+    emptyOutDir:true,
+  },
   pages: {
     index: {
       // entry for the page
@@ -30,9 +40,5 @@ export default {
     host: true
   },
 
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  },
+
 }
