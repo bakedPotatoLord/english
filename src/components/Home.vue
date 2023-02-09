@@ -52,7 +52,7 @@
     padding:1rem;
     border: 2px dashed salmon;
     text-align: center;
-    margin-right:0.5rem;
+    margin:0.5rem;
     font-family: 'inter';
   }
 
