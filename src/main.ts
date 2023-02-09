@@ -9,8 +9,8 @@ import Home from "./components/Home.vue"
 import Other from "./components/Other.vue"
 
 const routes = [
-  { path: "/", name: "Home", component: Home },
-  { path: "/other", name: "Other", component: Other },
+  { path: "/english/", name: "Home", component: Home },
+  { path: "/english/other", name: "Other", component: Other },
 
 ];
 
