@@ -50,6 +50,8 @@
     border-radius: 1rem;
   }
 
+
+
   .title h1{
     padding:1rem;
     font-family: 'inter';
