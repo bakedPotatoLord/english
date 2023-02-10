@@ -22,14 +22,14 @@
             <p>My Computer</p>
           </div>
         </a>
-        <a href="/english/my-computer">
+        <a href="/english/when-i-was-young">
           <div class="work">
-            <p>blahblah</p>
+            <p>When I was young</p>
           </div>
         </a>
-        <a href="/english/my-computer">
+        <a href="/english/the-home-on">
           <div class="work">
-            <p>jdabckiejuij</p>
+            <p>The Home On E 135th Pl</p>
           </div>
         </a>
 
