@@ -1,7 +1,7 @@
 
 <template>
   <div class="body">
-    <h3>this is the other thing</h3>
+    <h3>A Moment From my Life</h3>
     <p>
       Last year was my first year of engaging in the FIRST robotics competition. As a student in middle school, I was on a team for the precursor to FRC, the FIRST lego league. Being on an FRC team had always been a dream of mine. I remember seeing the giant robots as a child, and how they always awed me with their crazy skills.
 Now, I was the one with the robot, one with the team. As a freshman I had never been to an actual competition before. I had heard about the energy that these events had, and how it was overwhelming, but I doubted this and chalked it up to exaggeration. Now, as I stepped through the doors into the giant arena, I could tell that I had been very wrong. The music pumped through me, as it exploded from the speakers hanging from the ceiling. It overshadowed the bustling clamor of the teams in the pits, and it made me feel very disconnected from the world for a second. 
@@ -11,5 +11,16 @@ The arena was divided into two sections. On one half of a giant black curtain wa
 </template>
 
 <style scoped>
+  .body{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
+  .body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  p{
+    line-height: 150%;
+  }
 </style>
