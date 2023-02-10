@@ -17,17 +17,21 @@
             <p>A Moment in My Life</p>
           </div>
         </a>
-        <a href="/english/when-i-was-young">
+        <a href="/english/my-computer">
           <div class="work">
-            <p>A Moment in My Life</p>
+            <p>My Computer</p>
           </div>
         </a>
-        <div class="work">
-          <p>this is a super cool literary masterpiece</p>
-        </div>
-        <div class="work">
-          <p>this is a super cool literary masterpiece</p>
-        </div>
+        <a href="/english/my-computer">
+          <div class="work">
+            <p>blahblah</p>
+          </div>
+        </a>
+        <a href="/english/my-computer">
+          <div class="work">
+            <p>jdabckiejuij</p>
+          </div>
+        </a>
 
       </div>
     </div>
@@ -46,8 +50,9 @@
 
   .works{
     display:flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-content:stretch;
+    align-items:stretch;
   }
 
   .title{
