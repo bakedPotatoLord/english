@@ -69,9 +69,6 @@
     flex-grow: 2;
     min-width: 5rem;
     border: 2px dashed salmon;
-    transition-duration: 1s;
-    margin:0.5rem;
-
   }
 
   .work p{
@@ -80,7 +77,12 @@
     color:black;
   }
 
-  .work:hover{
-    margin:0rem;
+  .works a{
+    margin:0.5rem;
+    transition-duration: 1000ms;
+  }
+
+  .works a:hover{
+    margin:1rem;
   }
 </style>
